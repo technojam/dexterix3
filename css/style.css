@@ -530,7 +530,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 10vh;
+  height: 20vh;
   font-size: 1.3rem;
   background-color: #212529;
 }
