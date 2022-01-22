@@ -87,7 +87,7 @@ body {
 
   .main-nav li a {
     border-radius: 10px;
-    background: #3f5efb;
+    background: transparent;
     color: #fff;
     padding: 10px;
     font-size: 1.4rem;
