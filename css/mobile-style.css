@@ -132,15 +132,17 @@
   }
 
   .about-section {
-    height: 100vh;
+    height: 169vh;
     margin-top: 0;
     background: white;
     display: flex;
     flex: 1;
     justify-content: center;
-    flex-direction: unset;
+    flex-direction: row;
     align-items: center;
     font-size: 1rem;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   .highlights {
