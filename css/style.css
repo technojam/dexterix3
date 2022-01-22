@@ -86,7 +86,7 @@ body {
   z-index: 0;
 }
 
-#devfolio-apply-now {
+#apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
@@ -108,11 +108,11 @@ body {
   transition: background 300ms;
 }
 
-#devfolio-apply-now:not([disabled]) {
+#apply-now:not([disabled]) {
   cursor: pointer;
 }
 
-#devfolio-apply-now:hover {
+#apply-now:hover {
   background-color: #2954bf !important;
 }
 
@@ -394,6 +394,7 @@ body {
 
 .events {
   margin-top: 35px;
+  place-content: center;
 }
 
 .events h1 {
