@@ -33,7 +33,7 @@ canvas {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 120vh;
+  height: 147vh;
   background: #a8c0ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom right,

@@ -23,7 +23,6 @@ body {
 }
 
 .section {
-  min-height: 100vh;
   display: flex;
 }
 
@@ -31,17 +30,15 @@ body {
   position: relative;
   display: flex;
   contain:content;
+  flex-direction: column;
   background: #a8c0ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom right,
     #3f2b96,
     #a8c0ff
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom right,
-    #3f5efb,
-    #fc466b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(#46034f,#040c31,#46034f); 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .dexterix {
@@ -81,9 +78,9 @@ body {
 
 .hero-img {
   position: absolute;
-  top: 80px;
-  right: 5%;
-  z-index: 0;
+    top: 224px;
+    right: 3%;
+    z-index: 0;
 }
 
 #apply-now {
@@ -136,11 +133,8 @@ body {
 }
 
 .about-section {
-  background: linear-gradient(
-    to bottom right,
-    #831329,
-    #3f5efb
-  );
+  background:linear-gradient(#46034f,#040c31,#46034f);
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,12 +143,12 @@ body {
 }
 
 .themes-section {
-  background: white;
+  background: linear-gradient(#46034f,#040c31,#46034f);
   display: flex;
   flex-direction: unset;
   align-items: center;
   font-size: 1.5rem;
-  height: 100vh;
+  height: 100%;
 }
 
 .highlights {
@@ -179,10 +173,12 @@ body {
 
 .countdown {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 65%;
-  margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 65%;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .countdown li {
@@ -208,10 +204,12 @@ body {
 
 .prize {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .prize-card {
@@ -234,7 +232,10 @@ body {
 
 .cards {
   display: flex;
-  margin-top: 40px;
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -269,18 +270,21 @@ body {
 }
 
 .schedule-section {
+  background: linear-gradient(#46034f,#040c31,#46034f);
+  color: white;
   position: relative;
-  display: flex;
-  flex-direction: unset;
-  justify-content: center;
-  font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
 }
 
 .themes-section {
-  height: 100vh;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
+  height: 100%;
+  background: linear-gradient(#46034f,#040c31,#46034f);
   display: flex;
   flex-wrap: wrap;
   flex-direction: unset;
@@ -301,6 +305,7 @@ body {
   flex-wrap: wrap;
   flex-direction:unset;
   justify-content: center;
+  margin: 50px;
 }
 
 .theme-card {
@@ -340,17 +345,17 @@ body {
 
 .schedule-section-section {
   position: absolute;
-  display: flex;
-  bottom: 0;
-  height: 80vh;
-  width: 80%;
-  background-color: white;
+    display: flex;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
 }
 
 .section-1 {
   width: 50%;
-  margin: 30px;
-  margin-top: 50px;
+  margin-top: 17px;
+    margin-bottom: 50px
 }
 
 .section-1 h2 {
@@ -368,8 +373,8 @@ body {
 
 .section-2 {
   width: 50%;
-  margin: 30px;
-  margin-top: 50px;
+    margin-top: 17px;
+    margin-bottom: 50px
 }
 
 .section-2 h2 {
@@ -379,17 +384,18 @@ body {
 
 .event-section {
   display: flex;
-  justify-content: center;
+    justify-content: center;
+    background: linear-gradient(#46034f,#040c31,#46034f);
+    color: white;
 }
 
 .events-section {
   margin-top: 10px;
   position: relative;
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
 }
 
 .events {
@@ -467,13 +473,12 @@ body {
 
 .sponsors-section-section {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 80%;
   flex-direction: column;
   text-align: center;
   align-items: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
 }
 
 .sponsors {
@@ -496,7 +501,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
 }
 
 .sponsors-list-list {
@@ -504,8 +508,7 @@ body {
 }
 
 .mentors {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: white;
 }
 
 .mentors h1 {
@@ -649,7 +652,6 @@ footer h4 a span {
 }
 
 .table-fill {
-  background: #ffffff;
   box-shadow: var(--shadow);
   border-radius: 4px;
   overflow: hidden;
@@ -659,9 +661,6 @@ footer h4 a span {
   border-collapse: collapse;
 }
 
-.table-fill tr:nth-child(2n) {
-  background: #f8f8fa;
-}
 
 .table-fill td {
   border: 1px solid #eaeaee;
@@ -803,4 +802,14 @@ footer h4 a span {
   font-size:xx-large;
   color: white;
   font-family: Poppins;
+}
+
+.video-player {
+  display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 50%;
+    flex-direction: column;
+    width: 65%;
+    align-self: center;
 }

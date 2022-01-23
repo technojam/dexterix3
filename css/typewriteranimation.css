@@ -24,3 +24,30 @@
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+
+@media screen and (max-width: 600px)
+{
+.line-1{
+  position: relative;
+  width: 24em;
+  margin: 0;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(25) 1s 1 normal both,
+             blinkTextCursor 500ms steps(25) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 12.2em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+}

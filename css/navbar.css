@@ -41,6 +41,12 @@ body {
   margin-left: 5%;
 }
 
+.logo{
+  height: 70px;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
 .navbar-toggle {
   position: absolute;
   top: 27px;
@@ -115,4 +121,11 @@ body {
     color: #ffffff;
     transition: color .3s ease;
   }
+  
+  .logo{
+  height: 80px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
 }

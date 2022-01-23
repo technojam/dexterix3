@@ -14,9 +14,19 @@
     transform-origin: top;
   }
 
+  .video-player {
+    display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      margin-top: 100px;
+      height: auto;
+      width: 100%;
+  }
+
   .hero-section {
-    height: 90vh;
+    height: 100%;
     position: relative;
+    flex-direction: column;
   }
 
   .dexterix {
@@ -133,8 +143,8 @@
 
   .about-section {
     height: 169vh;
+    background: linear-gradient(#46034f,#040c31,#46034f);
     margin-top: 0;
-    background: white;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -143,6 +153,7 @@
     font-size: 1rem;
     flex-wrap: wrap;
     align-content: center;
+    color: #fff;
   }
 
   .highlights {
@@ -232,16 +243,16 @@
   }
 
   .schedule-section {
-    height: 110vh;
-    margin-bottom: 300px;
+    height: 100%;
+    margin-bottom: 0px;
     font-size: 1rem;
   }
 
   .themes-section {
-    height: 225vh;
+    height:  100%;
     margin-top: 0;
-    margin-bottom: 50px;
-  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
+    margin-bottom: 0px;
+    background: linear-gradient(#46034f,#040c31,#46034f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,17 +331,27 @@
   .events-section {
     position: relative;
     display: flex;
-    width: 95%;
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 0px;
     justify-content: center;
     font-size: 1rem;
-    background-color: #eeeeee;
+    background: linear-gradient(#46034f,#040c31,#46034f);
+    color: white;
   }
 
   .events {
     margin-top: 20px;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
   }
 
+  .event-section {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}  
   .events h1 {
     font-family: Poppins;
   }
@@ -431,12 +452,14 @@
   }
 
   .sponsors-section {
-    height: 100vh;
+    height: 100%;
+    color: white;
+    background: linear-gradient(#46034f,#040c31,#46034f);
   }
 
   .sponsors-section-section {
-    height: 100vh;
-    width: 95%;
+    height: 100%;
+    width: 100%;
     font-size: 1rem;
   }
 
@@ -464,18 +487,20 @@
   }
 
   .mentors {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .mentors-section {
+    height: 100%;
+    color: white;
+    background: linear-gradient(#46034f,#040c31,#46034f);
   }
 
   .mentors h1 {
     font-family: Poppins;
-  }
-
-  .mentors-list {
-    height: 80vh;
-    width: 100%;
-    background-color: lightgrey;
   }
 
   .faq-section {
@@ -518,3 +543,4 @@
     color: blue;
   }
 }
+
