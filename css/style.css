@@ -469,6 +469,8 @@ body {
 .sponsors-section {
   display: flex;
   justify-content: center;
+  background: linear-gradient(#46034f,#040c31);
+  color: white;
 }
 
 .sponsors-section-section {
@@ -524,9 +526,18 @@ body {
   background-color: lightgrey;
 }
 
+.mentors-section {
+  color: white;
+  background: linear-gradient(#46034f,#040c31,#46034f);
+  height: 100%;
+}
+
 .faq-section {
   display: flex;
   justify-content: center;
+  background: linear-gradient(#040c31,#46034f);
+    color: white;
+    padding-bottom: 50px;
 }
 
 .faq-section-section {
@@ -535,7 +546,6 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
 }
 
 .faqs {
@@ -549,12 +559,13 @@ body {
 
 .faqs-list {
   display: flex;
+  height: 10%;
+  width: 100%;
+  /* margin-bottom: -207px; */
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 85vh;
-  width: 100%;
-  margin-bottom: 50px;
-  background-color: lightgrey;
 }
 
 footer {
@@ -686,7 +697,7 @@ footer h4 a span {
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #ffffff;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -695,16 +706,16 @@ footer h4 a span {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #03b5d2;
+  color: #ffffff;
 }
 
 .accordion a:hover::after {
-  border: 1px solid #03b5d2;
+  border: 1px solid #ffffff;
 }
 
 .accordion a.active {
-  color: #03b5d2;
-  border-bottom: 1px solid #03b5d2;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .accordion a::after {
@@ -714,7 +725,7 @@ footer h4 a span {
   float: right;
   right: 1rem;
   font-size: 1rem;
-  color: #7288a2;
+  color: #ffffff;
   padding: 5px;
   width: 30px;
   height: 30px;
@@ -724,8 +735,8 @@ footer h4 a span {
 .accordion a.active::after {
   font-family: "Font Awesome 5 Free";
   content: "\f0fe";
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .accordion .content {
