@@ -28,8 +28,8 @@ body {
 
 .main-nav li {
   text-align: center;
-  margin: 15px auto;
-  transition: transform .5s ease;
+    margin: 24px auto;
+    transition: transform .5s ease;
 }
 
 .hack-logo {

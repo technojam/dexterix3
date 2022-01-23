@@ -68,7 +68,6 @@ body {
   font-family: Poppins;
   color: white;
   padding-bottom: 5px;
-  margin-bottom: 10px;
 }
 
 .illustration {
@@ -270,7 +269,6 @@ body {
 }
 
 .schedule-section {
-  background: linear-gradient(#46034f,#040c31,#46034f);
   color: white;
   position: relative;
     display: flex;
@@ -310,18 +308,19 @@ body {
 
 .theme-card {
   color: #fff;
-  width: 400px;
-  height: 360px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #eeeeee;
-  box-shadow: var(--shadow);
-  transition: transform 300ms, box-shadow 300ms;
+    width: 400px;
+    height: 50vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #eeeeee;
+    box-shadow: var(--shadow);
+    transition: transform 300ms, box-shadow 300ms;
 }
 
 .theme-card i {
@@ -333,6 +332,16 @@ body {
   box-shadow: var(--shadow-lg);
   transform: translateY(-15px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.theme-text{
+  text-align: -webkit-left;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
 }
 
 .event-schedule {

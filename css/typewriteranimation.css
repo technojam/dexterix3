@@ -3,8 +3,7 @@
 
 .line-1{
     position: relative;
-    width: 24em;
-    margin: 0 auto;
+    width: 10em;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
     white-space: nowrap;
@@ -13,12 +12,12 @@
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(25) 1s 1 normal both,
-             blinkTextCursor 500ms steps(25) infinite normal;
+  animation: typewriter 2.5s steps(20) 1s 1 normal both,
+             blinkTextCursor 500ms steps(20) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 12.2em;}
+  to{width: 6.2em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
@@ -39,12 +38,12 @@
 }
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(25) 1s 1 normal both,
-             blinkTextCursor 500ms steps(25) infinite normal;
+  animation: typewriter 2.5s steps(20) 1s 1 normal both,
+             blinkTextCursor 500ms steps(20) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 12.2em;}
+  to{width: 6.2em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}

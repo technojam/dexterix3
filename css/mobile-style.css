@@ -6,8 +6,8 @@
 
 @media screen and (max-width: 600px) {
   .main-nav {
-    position: absolute;
-    background-color: #fc466b;
+    position: relative;
+    background-color: #040c31;
     padding: 20px 0;
     transform: scaleY(0) rotateX(-90deg);
     transition: transform .3s cubic-bezier(0,1.84,.88,.78);
@@ -56,7 +56,6 @@
     font-family: Poppins;
     color: #fff;
     padding-bottom: 5px;
-    margin-bottom: 10px;
   }
 
   .illustration {
@@ -220,7 +219,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 255px;
+    margin-bottom: 100px;
   }
 
   .card {
@@ -272,16 +271,28 @@
   }
 
   .theme-card {
-    width: 80%;
-    height: 220px;
-    margin: 8px;
+    width: 40vh;
+    height: 100%;
+    /* margin: 5px; */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #eeeeee;
+    padding: 46px;
+    align-content: center;
   }
+
+  .theme-text{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: left;
+  }
+  
 
   .event-schedule {
     margin-top: 20px;
@@ -456,7 +467,7 @@
   .sponsors-section {
     height: 100%;
     color: white;
-    background: linear-gradient(#46034f,#040c31,#46034f);
+    background: linear-gradient(#46034f,#040c31);
   }
 
   .sponsors-section-section {
