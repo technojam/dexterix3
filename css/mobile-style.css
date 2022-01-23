@@ -22,6 +22,43 @@
       height: auto;
       width: 100%;
   }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.3rem;
+    background-color: #212529;
+    padding: 20px;
+  }
+  
+  
+  footer h4 {
+    padding: 15px;
+    color: #d2d1d1;
+  }
+  
+  footer h4 i {
+    color: rgb(22, 22, 218);
+  }
+  
+  footer h4 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  footer h4 a span {
+    text-decoration: underline;
+  }  
 
   .hero-section {
     height: 100%;
@@ -533,27 +570,6 @@
   .faqs-list {
     height: 100%;
     margin-bottom: 10px;
-  }
-
-  footer {
-    height: 100%;
-    font-size: 0.9rem;
-    background-color: #212529;
-  }
-
-  .footer-contact {
-    display: flex;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  footer h4 {
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-
-  footer h4 i {
-    color: blue;
   }
 }
 

@@ -114,10 +114,8 @@ body {
 
 .icons {
   padding: 15px;
-  padding-left: 0px;
   margin-top: 10px;
   display: flex;
-  font-display: unset;
 }
 
 .icons a {
@@ -582,9 +580,10 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 100%;
   font-size: 1.3rem;
   background-color: #212529;
+  padding: 20px;
 }
 
 
