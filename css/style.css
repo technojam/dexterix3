@@ -571,12 +571,13 @@ body {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
   font-size: 1.3rem;
   background-color: #212529;
 }
+
 
 footer h4 {
   padding: 15px;
@@ -591,6 +592,8 @@ footer h4 a {
   color: white;
   text-decoration: none;
 }
+
+
 
 .footer-contact {
   display: flex;
@@ -817,7 +820,7 @@ footer h4 a span {
 
 .video-player {
   display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     margin-top: 100px;
     height: 50%;
     flex-direction: column;
