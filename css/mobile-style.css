@@ -16,12 +16,22 @@
 
   .video-player {
     display: flex;
-      justify-content: center;
-      margin-bottom: 100px;
-      margin-top: 100px;
-      height: auto;
-      width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
   }
+  .writeup-body {
+    padding: 5%;
+    margin: 0em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: Poppins;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
