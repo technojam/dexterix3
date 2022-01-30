@@ -36,7 +36,7 @@ body {
     #3f2b96,
     #a8c0ff
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(#46034f, #040c31, #46034f);
+  background: #0d0d0d;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 .about-section {
-  background: linear-gradient(#46034f, #040c31, #46034f);
+  background: #0d0d0d;
   color: white;
   display: flex;
   flex-direction: column;
@@ -278,7 +278,7 @@ body {
 
 .themes-section {
   height: 100%;
-  background: linear-gradient(#46034f, #040c31, #46034f);
+  background: #0d0d0d;
   display: flex;
   flex-wrap: wrap;
   flex-direction: unset;
@@ -390,7 +390,7 @@ body {
 .event-section {
   display: flex;
   justify-content: center;
-  background: linear-gradient(#46034f, #040c31, #46034f);
+  background: #0d0d0d;
   color: white;
 }
 
@@ -471,7 +471,7 @@ body {
 .sponsors-section {
   display: flex;
   justify-content: center;
-  background: linear-gradient(#46034f, #040c31);
+  background: #0d0d0d;
   color: white;
 }
 
@@ -537,7 +537,7 @@ body {
 .faq-section {
   display: flex;
   justify-content: center;
-  background: linear-gradient(#040c31, #46034f);
+  background: #0d0d0d;
   color: white;
   padding-bottom: 50px;
 }
@@ -797,6 +797,8 @@ footer h4 a span {
   font-size: x-large;
   color: #ffffff;
   font-family: Poppins;
+  text-align: justify;
+  padding-top: 1%;
 }
 .reveal {
   position: relative;
@@ -820,7 +822,7 @@ footer h4 a span {
 
 .video-player {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   margin-top: 100px;
   height: 50%;
   flex-direction: column;
