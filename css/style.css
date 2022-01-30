@@ -36,7 +36,7 @@ body {
     #3f2b96,
     #a8c0ff
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: #0d0d0d;
+  background: #070c1d;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -133,22 +133,13 @@ body {
 }
 
 .about-section {
-  background: #0d0d0d;
+  background: #070c1d;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-}
-
-.themes-section {
-  background: linear-gradient(#46034f, #040c31, #46034f);
-  display: flex;
-  flex-direction: unset;
-  align-items: center;
-  font-size: 1.5rem;
-  height: 100%;
 }
 
 .highlights {
@@ -182,7 +173,6 @@ body {
 }
 
 .countdown li {
-  background: linear-gradient(to bottom right, #12c2e9, #c471ed);
   margin: 5px;
   border-radius: 10px;
   display: inline-block;
@@ -209,7 +199,7 @@ body {
 }
 
 .prize-card {
-  color: #fff;
+  color: #040816c9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,8 +211,8 @@ body {
   height: 75px;
   margin: 20px;
   margin-bottom: 0;
-  border-radius: 4px;
-  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  border-radius: 149px;
+  background: #a5f0d3;
   box-shadow: var(--shadow);
 }
 
@@ -240,13 +230,13 @@ body {
   margin: 30px;
   margin-top: 20px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #040816c9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 9px;
   background-color: #eeeeee;
   box-shadow: var(--shadow);
   transition: box-shadow 300ms;
@@ -279,7 +269,7 @@ body {
 
 .themes-section {
   height: 100%;
-  background: #0d0d0d;
+  background: #070c1d;
   display: flex;
   flex-wrap: wrap;
   flex-direction: unset;
@@ -304,7 +294,7 @@ body {
 }
 
 .theme-card {
-  color: #fff;
+  color: #040816c9;
   width: 400px;
   height: 60vh;
   margin: 10px;
@@ -315,7 +305,6 @@ body {
   align-items: center;
   text-align: center;
   border-radius: 4px;
-  background-color: #eeeeee;
   box-shadow: var(--shadow);
   transition: transform 300ms, box-shadow 300ms;
 }
@@ -391,7 +380,7 @@ body {
 .event-section {
   display: flex;
   justify-content: center;
-  background: #0d0d0d;
+  background: #070c1d;
   color: white;
 }
 
@@ -472,7 +461,7 @@ body {
 .sponsors-section {
   display: flex;
   justify-content: center;
-  background: #0d0d0d;
+  background: #070c1d;
   color: white;
 }
 
@@ -499,7 +488,7 @@ body {
 
 .sponsors-list {
   width: 100%;
-  height: 60vh;
+  height: 100%;
   padding: 0 75px;
   display: flex;
   flex-direction: column;
@@ -531,14 +520,14 @@ body {
 
 .mentors-section {
   color: white;
-  background: linear-gradient(#46034f, #040c31, #46034f);
+  background-color: #070c1d;
   height: 100%;
 }
 
 .faq-section {
   display: flex;
   justify-content: center;
-  background: #0d0d0d;
+  background: linear-gradient(to bottom, #070c1d, #0d0d0d);
   color: white;
   padding-bottom: 50px;
 }
@@ -578,7 +567,7 @@ footer {
   align-items: center;
   height: 100%;
   font-size: 1.3rem;
-  background-color: #212529;
+  background-color: #191919;
   padding: 20px;
 }
 
@@ -607,63 +596,11 @@ footer h4 a span {
 }
 
 .card-clock {
-  background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #a5f0d3; 
 }
 
 .card-themes {
-  background: #7f7fd5; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom right,
-    #91eae4,
-    #86a8e7,
-    #7f7fd5
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom right,
-    #91eae4,
-    #86a8e7,
-    #7f7fd5
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.card-teams {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom right,
-    #0575e6,
-    #00f260
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom right,
-    #0575e6,
-    #00f260
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.card-food {
-  background: #4e54c8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom right,
-    #8f94fb,
-    #4e54c8
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom right,
-    #8f94fb,
-    #4e54c8
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(180deg, #a5f0d3, #75feff);
 }
 
 .table-fill {
@@ -791,11 +728,11 @@ footer h4 a span {
 }
 
 .writeup-body {
-  padding: 5%;
+  padding: 1%;
   margin: 0em 10em 0em 10em;
   display: flex;
   flex-direction: column;
-  font-size: x-large;
+  font-size: large;
   color: #ffffff;
   font-family: Poppins;
   text-align: justify;
@@ -829,4 +766,29 @@ footer h4 a span {
   flex-direction: column;
   width: 65%;
   align-self: center;
+}
+
+.slideanim {
+  visibility:hidden;
+  visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+  visibility: visible;                  
+  animation: slide 1s;
+}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(50%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  } 
 }

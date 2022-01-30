@@ -7,7 +7,7 @@
 @media screen and (max-width: 600px) {
   .main-nav {
     position: relative;
-    background-color: #040c31;
+    background-color: #070c1d;
     padding: 20px 0;
     transform: scaleY(0) rotateX(-90deg);
     transition: transform .3s cubic-bezier(0,1.84,.88,.78);
@@ -27,7 +27,7 @@
     margin: 0em 0em 0em 0em;
     display: flex;
     flex-direction: column;
-    font-size: x-large;
+    font-size: larger;
     color: #ffffff;
     font-family: Poppins;
   }
@@ -39,7 +39,7 @@
     align-items: center;
     height: 100%;
     font-size: 1.3rem;
-    background-color: #212529;
+    background-color: #191919;
     padding: 20px;
   }
   
@@ -190,7 +190,6 @@
 
   .about-section {
     height: 100%;
-    background: linear-gradient(#46034f,#040c31,#46034f);
     margin-top: 0;
     display: flex;
     flex: 1;
@@ -226,7 +225,6 @@
   .countdown li {
     display: inline-block;
     font-size: 12px;
-    list-style-type: none;
     padding: 0px 15px;
     text-transform: uppercase;
     color: #fff;
@@ -258,7 +256,7 @@
     height: 75px;
     margin: 10px;
     margin-bottom: 0;
-    background-color: pink;
+    background-color: #a5f0d3;;
   }
 
   .cards {
@@ -278,7 +276,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #a5f0d3;
   }
 
   .card i {
@@ -300,7 +298,6 @@
     height:  100%;
     margin-top: 0;
     margin-bottom: 0px;
-    background: linear-gradient(#46034f,#040c31,#46034f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +322,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #eeeeee;
+    background: linear-gradient(180deg, #a5f0d3, #75feff);
     padding: 46px;
     align-content: center;
   }
@@ -395,7 +392,7 @@
     margin-top: 0px;
     justify-content: center;
     font-size: 1rem;
-    background: linear-gradient(#46034f,#040c31,#46034f);
+    
     color: white;
   }
 
@@ -514,7 +511,6 @@
   .sponsors-section {
     height: 100%;
     color: white;
-    background: linear-gradient(#46034f,#040c31);
   }
 
   .sponsors-section-section {
@@ -556,7 +552,7 @@
   .mentors-section {
     height: 100%;
     color: white;
-    background: linear-gradient(#46034f,#040c31,#46034f);
+    background-color: #070c1d;
   }
 
   .mentors h1 {

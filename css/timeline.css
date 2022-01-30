@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
-  background-color: #0d0d0d;
+  background-color: #070c1d;
 }
 
 .timeline {
@@ -23,14 +23,14 @@ body {
   content: "";
   position: absolute;
   width: 2px;
-  background: #006e51;
+  background: #a5f0d3;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -1px;
 }
 
-.container {
+.container-timeline {
   padding: 15px 30px;
   margin: 0;
   position: relative;
@@ -38,15 +38,15 @@ body {
   width: 50%;
 }
 
-.container.left {
+.container-timeline.left {
   left: 0;
 }
 
-.container.right {
+.container-timeline.right {
   left: 50%;
 }
 
-.container::after {
+.container-timeline::after {
   content: "";
   position: absolute;
   width: 16px;
@@ -54,70 +54,70 @@ body {
   top: calc(50% - 8px);
   right: -8px;
   background: #ffffff;
-  border: 2px solid #006e51;
+  border: 2px solid #a5f0d3;
   border-radius: 16px;
   z-index: 1;
 }
 
-.container.right::after {
+.container-timeline.right::after {
   left: -8px;
 }
 
-.container::before {
+.container-timeline::before {
   content: "";
   position: absolute;
   width: 50px;
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #006e51;
+  background: #a5f0d3;
   z-index: 1;
 }
 
-.container.right::before {
+.container-timeline.right::before {
   left: 8px;
 }
 
-.container .date {
+.container-timeline .date {
   position: absolute;
   display: inline-block;
   top: calc(50% - 8px);
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006e51;
+  color: #a5f0d3;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
 }
-.container .date1 {
+.container-timeline .date1 {
   position: absolute;
   display: inline-block;
   top: calc(50% - 8px);
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006e51;
+  color: #a5f0d3;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
 }
 
-.container.left .date {
+.container-timeline.left .date {
   right: -82px;
 }
 
-.container.right .date {
+.container-timeline.right .date {
   left: -82px;
 }
-.container.right .date1 {
+.container-timeline.right .date1 {
   left: -150px;
 }
-.container.left .date1 {
+.container-timeline.left .date1 {
   right: -150px;
 }
 
-.container .icon {
+.container-timeline .icon {
   position: absolute;
   display: inline-block;
   width: 40px;
@@ -125,85 +125,85 @@ body {
   padding: 9px 0;
   top: calc(50% - 20px);
   background: #f6d155;
-  border: 2px solid #006e51;
+  border: 2px solid #a5f0d3;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006e51;
+  color: #a5f0d3;
   z-index: 1;
 }
 
-.container.left .icon {
+.container-timeline.left .icon {
   right: 56px;
 }
 
-.container.right .icon {
+.container-timeline.right .icon {
   left: 56px;
 }
 
-.container .content {
+.container-timeline .content {
   padding: 30px 90px 30px 30px;
   background: #f6d155;
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 500px 500px 500px 500px;
 }
-.container .content2 {
+.container-timeline .content2 {
   padding: 30px 90px 30px 30px;
   background: gray;
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 500px 500px 500px 500px;
 }
-.container .content3 {
+.container-timeline .content3 {
   padding: 30px 90px 30px 30px;
   background: navajowhite;
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 500px 500px 500px 500px;
 }
 
-.container.right .content {
+.container-timeline.right .content {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 500px 500px 500px 500px
 }
-.container.right .content2 {
+.container-timeline.right .content2 {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 500px 500px 500px 500px
 }
-.container.right .content3 {
+.container-timeline.right .content3 {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 500px 500px 500px 500px
 }
 
-.container .content h2 {
+.container-timeline .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006e51;
+  color: #040816c9;
 }
-.container .content2 h2 {
+.container-timeline .content2 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
 }
-.container .content3 h2 {
+.container-timeline .content3 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
   color: black;
 }
-.container .content p {
+.container-timeline .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
 }
-.container .content2 p {
+.container-timeline .content2 p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
 }
-.container .content3 p {
+.container-timeline .content3 p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
@@ -215,42 +215,54 @@ body {
     left: 90px;
   }
 
-  .container {
+  .container-timeline {
     width: 100%;
     padding-left: 120px;
     padding-right: 30px;
   }
 
-  .container.right {
+  .container-timeline.right {
     left: 0%;
   }
 
-  .container.left::after,
-  .container.right::after {
+  .container-timeline.left::after,
+  .container-timeline.right::after {
     left: 82px;
   }
 
-  .container.left::before,
-  .container.right::before {
+  .container-timeline.left::before,
+  .container-timeline.right::before {
     left: 100px;
-    border-color: transparent #006e51 transparent transparent;
+    border-color: transparent #a5f0d3 transparent transparent;
   }
 
-  .container.left .date,
-  .container.right .date {
+  .container-timeline.left .date,
+  .container-timeline.right .date {
     right: auto;
     left: 15px;
   }
 
-  .container.left .icon,
-  .container.right .icon {
+  .container-timeline.left .icon,
+  .container-timeline.right .icon {
     right: auto;
     left: 146px;
   }
 
-  .container.left .content,
-  .container.right .content {
+  .container-timeline.left .content,
+  .container-timeline.right .content {
     padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
+    border-radius: 500px 500px 500px 500px
+  }
+
+  .container-timeline.left .content2,
+  .container-timeline.right .content2 {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 500px 500px 500px
+  }
+
+  .container-timeline.left .content3,
+  .container-timeline.right .content3 {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 500px 500px 500px
   }
 }
