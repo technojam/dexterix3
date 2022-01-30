@@ -1,237 +1,256 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #46034f;
-  color: #fff;
-  font-family: 'Poppins';
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  background-color: #0d0d0d;
 }
-
-
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.timeline-section {
-  padding: 0px 0;
-}
-
-.timeline-section .timeline-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.timeline-section h1 {
-  font-size: 2.5rem;
-  padding-bottom: 15px;
-}
-
-.timeline-section h2 {
-  font-size: 1.3rem;  
-  padding-bottom: 15px;
-}
-
-.timeline-section h3 {
-    font-size: 1.3rem;  
-    padding-bottom: 15px;
-  }
-
-
-
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline {
-  white-space: nowrap;
-  overflow-x: hidden;
-}
-
-.timeline ol {
-  font-size: 0;
-  width: 100vw;
-  padding: 250px 0;
-  transition: all 1s;
-}
-
-.timeline ol li {
   position: relative;
-  display: inline-block;
-  list-style-type: none;
-  width: 160px;
-  height: 3px;
-  background: #fff;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
 }
 
-.timeline ol li:last-child {
-  width: 280px;
-}
-
-.timeline ol li:not(:first-child) {
-  margin-left: 14px;
-}
-
-.timeline ol li:not(:last-child)::after {
-  content: '';
+.timeline::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
+  width: 2px;
+  background: #006e51;
+  top: 0;
   bottom: 0;
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: #040c31;
+  left: 50%;
+  margin-left: -1px;
 }
 
-.timeline ol li div {
-  position: absolute;
-  left: calc(100% + 7px);
-  width: 280px;
-  padding: 15px;
-  font-size: 1rem;
-  white-space: normal;
-  color: rgb(255, 255, 255);
-  height: 100%;
+.container {
+  padding: 15px 30px;
+  margin: 0;
+  position: relative;
+  background: inherit;
+  width: 50%;
 }
 
-.timeline ol li div::before {
-  content: '';
-  position: absolute;
-  top: 100%;
+.container.left {
   left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
 }
 
-.timeline ol li:nth-child(odd) div {
-  top: -70px;
-  transform: translateY(-100%);
-  left: 153px;
+.container.right {
+  left: 50%;
 }
 
-.timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
-  border-color: #ffffff00 transparent transparent transparent;
+.container::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #006e51;
+  border-radius: 16px;
+  z-index: 1;
 }
 
-.timeline ol li:nth-child(even) div {
-  top: calc(100% + 16px);
+.container.right::after {
+  left: -8px;
 }
 
-.timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent rgba(255, 255, 255, 0);
+.container::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #006e51;
+  z-index: 1;
 }
 
-.timeline time {
-  display: block;
-  font-size: 1.2rem;
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
   font-weight: bold;
-  margin-bottom: 8px;
+  color: #006e51;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.container .date1 {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #006e51;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
 }
 
-.timeline-cards{
-    background: #08186000;
+.container.left .date {
+  right: -82px;
 }
 
-
-/* TIMELINE ARROWS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.timeline .arrows {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
+.container.right .date {
+  left: -82px;
+}
+.container.right .date1 {
+  left: -150px;
+}
+.container.left .date1 {
+  right: -150px;
 }
 
-.timeline .arrows .arrow__prev {
-  margin-right: 20px;
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #f6d155;
+  border: 2px solid #006e51;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #006e51;
+  z-index: 1;
 }
 
-.timeline .disabled {
-  opacity: .5;
+.container.left .icon {
+  right: 56px;
 }
 
-.timeline .arrows img {
-  width: 45px;
-  height: 45px;
+.container.right .icon {
+  left: 56px;
 }
 
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: #f6d155;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+.container .content2 {
+  padding: 30px 90px 30px 30px;
+  background: gray;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+.container .content3 {
+  padding: 30px 90px 30px 30px;
+  background: navajowhite;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
 
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 599px) {
-  .timeline ol,
-  .timeline ol li {
-    width: auto; 
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+.container.right .content2 {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+.container.right .content3 {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #006e51;
+}
+.container .content2 h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.container .content3 h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.container .content2 p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.container .content3 p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
   }
-  
-  .timeline ol {
-    padding: 0;
-    transform: none !important;
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
   }
-  
-  .timeline ol li {
-    display: block;
-    height: auto;
-    background: transparent;
+
+  .container.right {
+    left: 0%;
   }
-  
-  .timeline ol li:first-child {
-    margin-top: 25px;
+
+  .container.left::after,
+  .container.right::after {
+    left: 82px;
   }
-  
-  .timeline ol li:not(:first-child) {
-    margin-left: auto;
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #006e51 transparent transparent;
   }
-  
-  .timeline ol li div {
-    width: 94%;
-    height: 100% !important;
-    margin: 0 auto 25px;
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
   }
-  
-  .timeline ol li div {
-    position: static;
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
   }
-  
-  .timeline ol li:nth-child(odd) div {
-    transform: none;
-  }
-  
-  .timeline ol li:nth-child(odd) div::before,
-  .timeline ol li:nth-child(even) div::before {
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    border: none;
-    border-left: 1px solid white;
-    height: 25px;
-  }
-  
-  .timeline ol li:last-child,
-  .timeline ol li:nth-last-child(2) div::before,
-  .timeline ol li:not(:last-child)::after,
-  .timeline .arrows {
-    display: none;
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
   }
 }
