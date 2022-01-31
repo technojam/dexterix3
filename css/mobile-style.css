@@ -4,6 +4,32 @@
   }
 }
 
+@media screen and (max-width: 1280px){
+.theme-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40vh;
+    height: 41vh;
+}
+.writeup-body {
+  padding: 5%;
+  margin: 0em 0em 0em 0em;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  color: #ffffff;
+  font-family: Poppins;
+}
+.theme-cards{
+  margin: 0px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+  
+}
+
 @media screen and (max-width: 600px) {
   .main-nav {
     position: relative;
