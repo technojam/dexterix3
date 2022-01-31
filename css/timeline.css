@@ -253,19 +253,19 @@ body {
 
   .container-timeline.left .content,
   .container-timeline.right .content {
-    padding: 30px 30px 30px 90px;
+    padding: 10px 5px 5px 70px;
     border-radius: 500px 500px 500px 500px
   }
 
   .container-timeline.left .content2,
   .container-timeline.right .content2 {
-    padding: 30px 30px 30px 90px;
+    padding: 10px 5px 5px 70px;
     border-radius: 500px 500px 500px 500px
   }
 
   .container-timeline.left .content3,
   .container-timeline.right .content3 {
-    padding: 30px 30px 30px 90px;
+    padding: 10px 5px 5px 70px;
     border-radius: 500px 500px 500px 500px
   }
 }
