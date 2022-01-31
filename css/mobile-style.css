@@ -434,6 +434,7 @@
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-top: 30px;
 }  
   .events h1 {
     font-family: Poppins;

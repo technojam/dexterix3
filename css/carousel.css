@@ -110,6 +110,7 @@
   margin: auto;
   display: flex;
   width: 90%;
+  padding-top: 20px;
 }
 
 /* Hide the images by default */
