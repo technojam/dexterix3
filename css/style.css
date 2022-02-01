@@ -276,6 +276,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  padding-top: 50px;
 }
 
 .themes-section h1 {
@@ -708,6 +709,7 @@ footer h4 a span {
   padding: 25px;
   font-family: Poppins;
   align-items: center;
+  text-align: center;
 }
 
 .about-writeup-section {
