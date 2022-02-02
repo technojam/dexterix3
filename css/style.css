@@ -46,7 +46,7 @@ body {
   z-index: 2;
   font-size: 1.9rem;
   padding: 25px;
-  left: 10%;
+  left: 3%;
   top: 25%;
   z-index: 1;
 }
@@ -76,9 +76,16 @@ body {
 
 .hero-img {
   position: absolute;
-  top: 224px;
-  right: 3%;
+  top: 180px;
+  right: 4%;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: large;
 }
 
 #apply-now {

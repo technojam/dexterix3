@@ -76,7 +76,7 @@
           <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
             <i class="fa fa-bars"></i>
           </label>
-          <img src="assets\33d dexterix.png" class="logo" alt="">
+          <img id="p1" src="assets\TJ_logo.png" class="logo" alt="TechnoJam">
           <input type="checkbox" id="chkToggle" />
           <ul class="main-nav" id="js-menu">
             <li>
@@ -132,15 +132,20 @@
           </div>
         </div>
         <div class="illustration animated slideInRight">
-          <img
-            class="hero-img"
-            width="600px"
-            src="assets\33d dexterix.png"
-            class=""
-            alt=""
-          />
+          <div class="hero-img">
+            <div>
+              <img width="200px" src="assets/logo_footer_acm.png" alt="ACM">
+              <img width="100px" src="assets/TJ_logo.png" alt="ACM">
+              </div>
+              <img width="600px" src="assets\33d dexterix.png" alt="Dexterix 2.0"/>
+              
+              <p style="position: absolute;
+              bottom: 4%;
+              font-style: italic;
+              font-family: 'Poppins';">(International Hybrid Hackathon)</p>
+            </div>
+          </div>
         </div>
-      </div>
     </header>
 
     <section id="hero-section" class="section hero-section">
@@ -213,15 +218,15 @@
       <div class="prize">
         <div class="prize-card slideanim">
           Winner <br />
-          Rs. 51000 <br />
+          Rs. 21000 <br />
         </div>
         <div class="prize-card slideanim">
           First runner up<br />
-          Rs.21000
+          Rs.11000
         </div>
         <div class="prize-card slideanim">
           Second runner up<br />
-          Rs.11000
+          Rs.5100
         </div>
       </div>
       <div class="highlights">
@@ -238,7 +243,7 @@
         </div>
         <div class="prize-card slideanim">
           Second runner up<br />
-          Rs.2100
+          Rs.3100
         </div>
       </div>
     </section>
@@ -746,5 +751,11 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="js/float-panel.js"></script>
+  <script>
+    var w = document.documentElement.clientWidth || window.innerWidth;
+if (w < 601) {
+  document.getElementById("p1").src = "assets/logo_combined.png";
+}
+  </script>
   </body>
 </html>

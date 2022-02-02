@@ -1,6 +1,6 @@
 @media screen and (max-width: 1260px) {
   .illustration {
-    display: none;
+    display: contents;
   }
 }
 
@@ -138,7 +138,7 @@
   }
 
   .hero-img {
-    width: 300px;
+    width: 307px;
     position: absolute;
     top: 35px;
     left: 5%;
