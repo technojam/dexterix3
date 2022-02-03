@@ -126,7 +126,7 @@ body {
   padding-bottom: 5px;
   display: flex;
   padding-left: 0px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .icons a {
