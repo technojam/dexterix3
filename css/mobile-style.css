@@ -1,6 +1,6 @@
 @media screen and (max-width: 1260px) {
   .illustration {
-    display: contents;
+    display: none;
   }
 }
 
