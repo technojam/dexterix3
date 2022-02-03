@@ -183,29 +183,28 @@
   }
 
   #apply-now {
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #3770ff;
-    border-radius: 3px;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    outline: none;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-size: 16px;
-    font-weight: 600;
-    /* padding: 8px 16px; */
-    text-align: center;
-    box-shadow: var(--shadow-lg);
-    width: 100px;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #4ac503;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ 
+  font-weight: 600;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: large;
+  
+  /* transition: background 300ms; */
+  width: 30%;
+  justify-content: center;
+    
   }
 
   .icons {

@@ -43,6 +43,8 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- tailwindcss cdn file -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- animate.css -->
     <link
@@ -110,7 +112,7 @@
             <h5 class="line-1 anim-typewriter" style="font-size: 150%;">
             Mar 04-05, 2022
           </h5>
-          <button id="apply-now" onclick="parent.location='https://www.townscript.com/e/dextrix-132312'">Register
+          <button  class="hover:tracking-widest shadow-lg transition ease-out duration-200 focus:ring-2 focus:ring-white focus:shadow-blue-500 " id="apply-now" onclick="parent.location='https://www.townscript.com/e/dextrix-132312'" >Register
           </button>
 
           <div class="icons">
@@ -144,11 +146,11 @@
     </header>
 
     <section id="hero-section" class="section hero-section">
-      <div class="video-player">
+      <div class="w-full aspect-video">
       <video 
       loop
         autoplay
-        controls
+        
         muted
       >
         <source src="assets/dexterix3.mp4" type="video/mp4">

@@ -85,9 +85,8 @@ body {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #3770ff;
-  border-radius: 3px;
-  border: none;
+  background-color: #4ac503;
+  border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
   display: -ms-flexbox;
@@ -95,13 +94,13 @@ body {
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px;
+ 
   font-weight: 600;
   padding: 14px 10px;
   text-align: center;
   font-size: x-large;
-  text-transform: none;
-  transition: background 300ms;
+  
+  /* transition: background 300ms; */
   width: 30%;
   justify-content: center;
 }
@@ -111,7 +110,7 @@ body {
 }
 
 #apply-now:hover {
-  background-color: #2954bf !important;
+  background-color: #2861f3 !important;
 }
 
 .icons {
