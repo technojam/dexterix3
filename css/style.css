@@ -326,7 +326,8 @@ body {
 .theme-card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-15px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+  box-shadow: 8px 13px 35px -9px rgb(107 215 227);
 }
 
 .theme-text {
@@ -508,6 +509,17 @@ body {
 
 .sponsors-list-list {
   margin: 12px;
+}
+
+.sponsors-list-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sponsors-list-img >img {
+  margin: 0 0.6rem;
 }
 
 .mentors {
