@@ -20,7 +20,7 @@
     width: 0;
   }
   to {
-    width: 8.2em;
+    width: 7.8em;
   }
 }
 @keyframes blinkTextCursor {
@@ -53,7 +53,7 @@
       width: 0;
     }
     to {
-      width: 8.2em;
+      width: 7.8em;
     }
   }
   @keyframes blinkTextCursor {
