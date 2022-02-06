@@ -156,18 +156,6 @@ body {
   border-radius: 500px 500px 500px 500px;
 }
 
-.container-timeline .content:hover {
-  box-shadow: 6px 8px 12px -5px rgb(107 215 227);
-}
-
-.container-timeline .content2:hover {
-  box-shadow: 6px 8px 12px -5px rgb(107 215 227);
-}
-
-.container-timeline .content3:hover {
-  box-shadow: 6px 8px 12px -5px rgb(107 215 227);
-}
-
 .container-timeline.right .content {
   padding: 10px 30px 10px 90px;
   border-radius: 500px 500px 500px 500px
@@ -184,19 +172,19 @@ body {
 .container-timeline .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
   color: #040816c9;
 }
 .container-timeline .content2 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
   color: #040816c9;
 }
 .container-timeline .content3 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
   color:#040816c9;
 }
 .container-timeline .content p {

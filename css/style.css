@@ -324,11 +324,19 @@ label {
   box-shadow:50px #63f5bd;
 }
 
-.theme-card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-15px);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
-  box-shadow: 8px 13px 35px -9px rgb(107 215 227);
+.flip-card .front,
+.flip-card .back {
+  font-family: Poppins;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  font-weight: 600;
+	text-align: center;
+	background: rgb(2,0,36);
+  background: linear-gradient(180deg, #13b3be,#85fcfc);
+	backface-visibility: hidden;
+	border-radius: 10px;
+  
 }
 
 .flip-card .back {
@@ -582,17 +590,6 @@ hr {
 
 .sponsors-list-list {
   margin: 12px;
-}
-
-.sponsors-list-img {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.sponsors-list-img >img {
-  margin: 0 0.6rem;
 }
 
 .mentors {
