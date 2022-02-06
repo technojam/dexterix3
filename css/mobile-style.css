@@ -387,7 +387,7 @@
     box-shadow: 0 20px 20px rgba(1, 143, 143, 0.2);
   }
   label:focus .flip-card {
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
     box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
   }
 
