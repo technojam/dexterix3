@@ -12,6 +12,7 @@ body {
   position: relative;
   font-size: 25px;
   background: transparent;
+  height: 30px;
 }
 
 .main-nav {

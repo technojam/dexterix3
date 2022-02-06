@@ -4,30 +4,29 @@
   }
 }
 
-@media screen and (max-width: 1280px){
-.theme-card {
+@media screen and (max-width: 1280px) {
+  .theme-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 40vh;
     height: 41vh;
-}
-.writeup-body {
-  padding: 5%;
-  margin: 0em 0em 0em 0em;
-  display: flex;
-  flex-direction: column;
-  font-size: larger;
-  color: #ffffff;
-  font-family: Poppins;
-}
-.theme-cards{
-  margin: 0px;
-}
+  }
+  .writeup-body {
+    padding: 5%;
+    margin: 0em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: #ffffff;
+    font-family: Poppins;
+  }
+  .theme-cards {
+    margin: 0px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -36,7 +35,7 @@
     background-color: #070c1d;
     padding: 20px 0;
     transform: scaleY(0) rotateX(-90deg);
-    transition: transform .3s cubic-bezier(0,1.84,.88,.78);
+    transition: transform 0.3s cubic-bezier(0, 1.84, 0.88, 0.78);
     transform-origin: top;
   }
 
@@ -68,33 +67,30 @@
     background-color: #191919;
     padding: 20px;
   }
-  
-  
+
   footer h4 {
     padding: 15px;
     color: #d2d1d1;
   }
-  
+
   footer h4 i {
     color: rgb(22, 22, 218);
   }
-  
+
   footer h4 a {
     color: white;
     text-decoration: none;
   }
-  
-  
-  
+
   .footer-contact {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  
+
   footer h4 a span {
     text-decoration: underline;
-  }  
+  }
 
   .hero-section {
     height: 100%;
@@ -282,7 +278,7 @@
     height: 75px;
     margin: 10px;
     margin-bottom: 0;
-    background-color: #a5f0d3;;
+    background-color: #a5f0d3;
   }
 
   .cards {
@@ -325,15 +321,14 @@
     background: #070c1d;
     display: flex;
     flex-flow: row wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-  
   }
-  
+
   .theme1 {
     color: #fff;
     font-size: xx-large;
@@ -341,10 +336,8 @@
     margin: 80px 0 0 0;
     display: flex;
     justify-content: center;
-  
   }
-  
-  
+
   label {
     display: flex;
     position: relative;
@@ -357,17 +350,18 @@
     transform-style: preserve-3d;
     cursor: pointer;
   }
-  
+
   .flip-card {
     position: relative;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
+
     transition: all 0.5s ease-in-out;
-    /* z-index: 1; */
-    box-shadow:50px #63f5bd;
+
+    box-shadow: 50px #63f5bd;
   }
-  
+
   .flip-card .front,
   .flip-card .back {
     font-family: Poppins;
@@ -376,21 +370,18 @@
     height: 100%;
     font-weight: 600;
     text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, #13b3be,#85fcfc);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, #13b3be, #85fcfc);
     backface-visibility: hidden;
     border-radius: 10px;
-    
   }
-  
+
   .flip-card .back {
     transform: rotateY(180deg);
     color: #000;
     background: linear-gradient(180deg, #63f5bd, #00ffff);
-  
-    
   }
-  
+
   label:hover .flip-card {
     transform: rotateY(-180deg);
     box-shadow: 0 20px 20px rgba(1, 143, 143, 0.2);
@@ -399,11 +390,11 @@
     transform: rotateY(180deg);
     box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
   }
-  
+
   input {
     display: none;
   }
-  
+
   :checked + .flip-card {
     transform: rotateY(-180deg);
   }
@@ -411,15 +402,15 @@
     transform: rotateX(175deg);
     box-shadow: 0 20px 20px rgba(255, 3, 3, 0.2);
   }
-  
+
   .front img {
+    display: inline-block;
     width: 100px;
-    height:100px;
+    height: 100px;
     margin: 50px 0 auto 0;
-    animation:1s ease-in-out 1s bounceIn;
-    
+    animation: 1s ease-in-out 1s bounceIn;
   }
-  
+
   .front h1 {
     font-size: 30px;
     color: #000000;
@@ -436,22 +427,20 @@
     font-weight: 600;
     margin: 0 0 5px 0;
     padding-top: 10px;
-    
-    
   }
-  
+
   .back h1 {
     color: #424752;
     margin: 30px 0 0 0;
   }
-  
+
   hr {
     width: 180px;
     margin: 5px auto 3px auto;
+    display: inline-block;
   }
-  .back ul{
+  .back ul {
     font-size: 1px;
-  
   }
   .back li {
     text-decoration: none;
@@ -462,7 +451,6 @@
     text-align: center;
     margin: 0 auto;
   }
-  
 
   .event-schedule {
     margin-top: 20px;
@@ -518,7 +506,7 @@
     margin-top: 0px;
     justify-content: center;
     font-size: 1rem;
-    
+
     color: white;
   }
 
@@ -535,7 +523,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 30px;
-}  
+  }
   .events h1 {
     font-family: Poppins;
   }
@@ -705,4 +693,3 @@
     margin-bottom: 10px;
   }
 }
-

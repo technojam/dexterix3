@@ -112,14 +112,15 @@ body {
   width: 30%;
   justify-content: center;
 }
-
+/* 
 #apply-now:not([disabled]) {
   cursor: pointer;
 }
 
 #apply-now:hover {
-  background-color: #2954bf !important;
-}
+  background-color: #1567e2 !important;
+  
+} */
 
 .icons {
   padding-top: 5px;
@@ -360,6 +361,7 @@ label:focus :checked + .flip-card {
 }
 
 .front img {
+  display: inline-block;
 	width: 100px;
 	height:100px;
 	margin: 50px 0 auto 0;
@@ -393,6 +395,7 @@ label:focus :checked + .flip-card {
 }
 
 hr {
+  display: inline-block;
 	width: 180px;
 	margin: 5px auto 3px auto;
 }
