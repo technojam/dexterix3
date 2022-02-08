@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -285,59 +285,6 @@ body {
   align-items: center;
   font-size: 1.5rem;
   padding-top: 50px;
-}
-
-.themes-section h1 {
-  color: #fff;
-  font-family: Poppins;
-  margin: 20px;
-}
-
-.theme-cards {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: unset;
-  justify-content: center;
-  margin: 50px;
-}
-
-.theme-card {
-  color: #040816c9;
-  width: 400px;
-  height: 60vh;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  align-items: center;
-  text-align: center;
-  border-radius: 4px;
-  box-shadow: var(--shadow);
-  transition: transform 300ms, box-shadow 300ms;
-}
-
-.theme-card i {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.theme-card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-15px);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
-  box-shadow: 8px 13px 35px -9px rgb(107 215 227);
-}
-
-.theme-text {
-  text-align: -webkit-left;
-  padding: 10px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 20px;
 }
 
 .event-schedule {
@@ -617,7 +564,7 @@ footer h4 a span {
 }
 
 .card-clock {
-  background: #a5f0d3; 
+  background: linear-gradient(90deg, #13b3be,#85fcfc);
 }
 
 .card-themes {
