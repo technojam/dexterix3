@@ -235,8 +235,9 @@
   }
 
   .highlights h1 {
-    padding: 25px;
-    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 30px;
     font-family: Poppins;
   }
 
@@ -290,12 +291,12 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 
   .card {
     width: 40%;
-    height: 150px;
+    height: 50vw;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -438,6 +439,7 @@
 }  
   .events h1 {
     font-family: Poppins;
+    font-size: 150%;
   }
 
   .events-section-section {
@@ -548,6 +550,7 @@
 
   .sponsors h1 {
     font-family: Poppins;
+    font-size: 150%;
   }
 
   .sponsors {
@@ -598,6 +601,10 @@
   .faqs {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .faqs h1{
+    font-size:150%;
   }
 
   .faqs-list {

@@ -22,7 +22,7 @@ body {
   content: "";
   position: absolute;
   width: 2px;
-  background: #a5f0d3;
+  background: #85fcfc;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -53,7 +53,7 @@ body {
   top: calc(50% - 8px);
   right: -8px;
   background: #070c1d;
-  border: 2px solid #a5f0d3;
+  border: 2px solid #85fcfc;
   border-radius: 16px;
   z-index: 1;
 }
@@ -69,7 +69,7 @@ body {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #a5f0d3;
+  background: #85fcfc;
   z-index: 1;
 }
 
@@ -139,19 +139,19 @@ body {
 
 .container-timeline .content {
   padding: 10px 90px 10px 30px;
-  background: #a5f0d3;
+  background: #85fcfc;
   position: relative;
   border-radius: 500px 500px 500px 500px;
 }
 .container-timeline .content2 {
   padding: 10px 90px 10px 30px;
-  background: #a5f0d3;
+  background: #85fcfc;
   position: relative;
   border-radius: 500px 500px 500px 500px;
 }
 .container-timeline .content3 {
   padding: 10px 90px 10px 30px;
-  background: #a5f0d3;
+  background: #85fcfc;
   position: relative;
   border-radius: 500px 500px 500px 500px;
 }
@@ -172,38 +172,44 @@ body {
 .container-timeline .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: normal;
-  color: #040816c9;
+  font-weight:bold;
+  color: #000000;
+  font-family: 'Poppins';
 }
 .container-timeline .content2 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: normal;
-  color: #040816c9;
+  font-weight:bold;
+  color: #000000;
+  font-family: 'Poppins';
 }
 .container-timeline .content3 h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: normal;
-  color:#040816c9;
+  font-weight:bold;
+  color:#000000;
+  font-family: 'Poppins';
 }
 .container-timeline .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  font-family: 'Poppins';
 }
 .container-timeline .content2 p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  font-family: 'Poppins';
 }
 .container-timeline .content3 p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  font-family: 'Poppins';
 }
 
 @media (max-width: 767.98px) {
@@ -254,7 +260,9 @@ body {
   .container-timeline.left .content,
   .container-timeline.right .content {
     padding: 10px 5px 5px 70px;
-    border-radius: 500px 500px 500px 500px
+    border-radius: 500px 500px 500px 500px;
+    background: linear-gradient(270deg,#13b3be,#85fcfc);
+    
   }
 
   .container-timeline.left .content2,
