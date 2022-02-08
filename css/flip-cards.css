@@ -72,11 +72,11 @@
   
   label:hover .flip-card {
     transform: rotateY(-180deg);
-    box-shadow: 0 20px 20px rgba(1, 143, 143, 0.2);
+    
   }
   label:focus .flip-card {
     transform: rotateY(180deg);
-    box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
+    
   }
   
   input {
@@ -88,7 +88,6 @@
   }
   label:focus :checked + .flip-card {
     transform: rotateX(175deg);
-    box-shadow: 0 20px 20px rgba(255, 3, 3, 0.2);
   }
   
   .front img {
@@ -178,8 +177,6 @@
     transform-style: preserve-3d;
     
     transition: all 0.5s ease-in-out;
-    
-    box-shadow:50px #63f5bd;
   }
   
   .flip-card .front,
@@ -210,7 +207,6 @@
   input[type="checkbox"]:checked + .flip-card 
   {
     transform: rotateY(0deg);
-    box-shadow: 0 20px 20px rgba(255, 3, 3, 0.2);
   }
   
   .front img {
