@@ -765,3 +765,24 @@ footer h4 a span {
       transform: translateY(0);
   } 
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070c1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #707070;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
